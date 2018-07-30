@@ -1,0 +1,8 @@
+version: 1.0.{build}
+configuration: Release
+build:
+  project: HelloWorld/HelloWorld.sln
+  parallel: true
+  verbosity: detailed
+artifacts:
+- path: HelloWorld\x64\Release\HelloWorld.exe
