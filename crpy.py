@@ -37,7 +37,8 @@ try:
 				# vv = {**v1, **v2}
 				vv = {**v1}
 				print(vv)
-				if (i in [1]) and ( re.findall(r'(?i)ZigZag\+\+', z.description+' '+z2.description) ):
+				# if (i in [1]) and ( re.findall(r'(?i)ZigZag\+\+', z.description+' '+z2.description) ):
+				if (i in [1]) and ( re.findall(r'(?i)ZigZag\+\+', z.description ) ):
 					if int(vv['New_Higher_Low']) ==1: arB.append({'c': cc, 's': 'zz_hl', 'd':'long'})
 					if int(vv['New_Lower_Low'])  ==1: arB.append({'c': cc, 's': 'zz_ll', 'd':'long'})
 					if int(vv['New_Higher_High'])==1: arB.append({'c': cc, 's': 'zz_hh', 'd':'short'})
