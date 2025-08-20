@@ -13,26 +13,28 @@ arCo=['BINANCE:BTCUSDT', 'BINANCE:ETHUSDT']
 lim=3; tf='15';
 arCo=['BINANCE:BTCUSDT', 'BINANCE:ETHUSDT', 'BINANCE:SOLUSDT', 'BINANCE:XRPUSDT', 'BINANCE:BNBUSDT', 'BINANCE:ADAUSDT', 'BINANCE:LINKUSDT', 'BINANCE:XLMUSDT', 'BINANCE:BCHUSDT', 'BINANCE:LTCUSDT', 'BINANCE:UNIUSDT', 'BINANCE:AAVEUSDT']; random.shuffle(arCo)
 lSt.append('PUB;ut1T8n2nhY3cjgArO4iFqk4n0M9ssI1d')		# ZigZag++ by DevLucem
-lSt.append('STD;Zig_Zag')
+# lSt.append('STD;Zig_Zag')
 arB=[]
 try:
-	for i1 in range(0, len(lSt) - 1, 2):
-		std=lSt[i1]; std2=lSt[i1 + 1]
+	# for i1 in range(0, len(lSt) - 1, 2):
+	for i1 in range(0, 1):
+		std=lSt[i1]; # std2=lSt[i1 + 1]
 		ch = c.Session.Chart()
 		ch.setMarket('BINANCE:BTCUSDT', { 'timeframe': tf }); time.sleep(1)
-		z =tv.getIndicator(std, 'last'); z2=tv.getIndicator(std2, 'last'); time.sleep(1)
+		z =tv.getIndicator(std, 'last'); # z2=tv.getIndicator(std2, 'last'); time.sleep(1)
 		print([z.description, z2.description])
 		if re.findall(r'(?i)ZigZag\+\+',  z.description):  z.setOption('in_10', False)	# !repaint
-		if re.findall(r'(?i)ZigZag\+\+', z2.description): z2.setOption('in_10', False)	# !repaint
-		s =ch.Study(z); s2=ch.Study(z2); time.sleep(1)
+		#if re.findall(r'(?i)ZigZag\+\+', z2.description): z2.setOption('in_10', False)	# !repaint
+		s =ch.Study(z); #s2=ch.Study(z2); time.sleep(1)
 		for cn in arCo:
 			ch.setMarket(cn, { 'timeframe': tf }); time.sleep(1)
 			for i in range(0, lim):
 				v1 = {} if str(type( s.periods[i])) == "<class 'NoneType'>" else  s.periods[i].valueOf()
-				v2 = {} if str(type(s2.periods[i])) == "<class 'NoneType'>" else  s2.periods[i].valueOf()
+				#v2 = {} if str(type(s2.periods[i])) == "<class 'NoneType'>" else  s2.periods[i].valueOf()
 				cc = ch.infos['name'] if str(type(ch.infos['base_currency'])) == "<class 'NoneType'>" else ch.infos['base_currency']
 				cc=re.sub('USDT?$', '',cc)
-				vv = {**v1, **v2}
+				# vv = {**v1, **v2}
+				vv = {**v1}
 				print(vv)
 				if (i in [1]) and ( re.findall(r'(?i)ZigZag\+\+', z.description+' '+z2.description) ):
 					if int(vv['New_Higher_Low']) ==1: arB.append({'c': cc, 's': 'zz_hl', 'd':'long'})
