@@ -4,8 +4,6 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -14,11 +12,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-      - name: Run a multi-line script
+      - name: rrrrrrrr
         run: |
-          pip install javascript
+          pip install javascript pandas
           # -----------------------
-          python crpy.py
+          python crpy.py > crp.txt
           # -----------------------
           git config --global user.name 'v'
           git config --global user.email 'v@users.noreply.github.com'
