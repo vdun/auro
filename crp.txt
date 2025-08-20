@@ -1,6 +1,6 @@
 [1m Installing '@mathieuc/tradingview' version 'latest'... This will only happen once. [0m
 
-added 38 packages, and audited 39 packages in 4s
+added 38 packages, and audited 39 packages in 2s
 
 6 packages are looking for funding
   run `npm fund` for details
@@ -13,4 +13,11 @@ found 0 vulnerabilities
 [JSE] 
 
 ChartSession { Study: [class ChartStudy] }
+['ZigZag++']
+[JSE] The maximum number of studies per chart has been reached for current subscription lax1-charts-free-3-tvbs-2jo9l-2@lax1-charts-free-3-tvbs-2jo9l-2
+
+[JSE] Calculation failed. Remove the script and reapply it to the chart. lax1-charts-free-3-tvbs-2jo9l-2@lax1-charts-free-3-tvbs-2jo9l-2
+
+{}
+{}
 name 'z2' is not defined
