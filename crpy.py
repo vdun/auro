@@ -37,7 +37,7 @@ try:
 				cc=re.sub('USDT?$', '',cc)
 				# vv = {**v1, **v2}
 				vv = {**v1}
-				print(vv)
+				# print(vv)
 				# if (i in [1]) and ( re.findall(r'(?i)ZigZag\+\+', z.description+' '+z2.description) ):
 				if (i in [1]) and ( re.findall(r'(?i)ZigZag\+\+', z.description ) ):
 					if int(vv['New_Higher_Low']) ==1: arB.append({'c': cc, 's': 'zz_hl', 'd':'long'})
@@ -45,8 +45,7 @@ try:
 					if int(vv['New_Higher_High'])==1: arB.append({'c': cc, 's': 'zz_hh', 'd':'short'})
 					if int(vv['New_Lower_High']) ==1: arB.append({'c': cc, 's': 'zz_lh', 'd':'short'})
 				for i, r in pd.DataFrame(arB).drop_duplicates().iterrows():
-					ss=f"- {r['c']}, {r['s']}, {r['d']}, {datetime.now()}"; sFile+=f'\n{ss}'
-					print(ss)
+					ss=f"- {r['c']}, {r['s']}, {r['d']}, {datetime.now()}"; sFile+=f'\n{ss}'; print(ss)
 	with open('crp.txt', 'w') as f: f.write(sFile)
 except Exception as e:
 	print(e)
