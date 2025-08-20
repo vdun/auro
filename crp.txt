@@ -14,10 +14,39 @@ found 0 vulnerabilities
 
 ChartSession { Study: [class ChartStudy] }
 ['ZigZag++']
-[JSE] The maximum number of studies per chart has been reached for current subscription dal-charts-free-4-tvbs-xbxr9-3@dal-charts-free-4-tvbs-xbxr9-3
-
-[JSE] Calculation failed. Remove the script and reapply it to the chart. dal-charts-free-4-tvbs-xbxr9-3@dal-charts-free-4-tvbs-xbxr9-3
-
-{}
-{}
-'New_Higher_Low'
+{'$time': 1755697500, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638022, 'direction': 1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755697500, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755696600, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
+{'$time': 1755695700, 'Direction_Background': 855638023, 'direction': -1, 'New_Higher_High': 0, 'New_Lower_High': 0, 'New_Higher_Low': 0, 'New_Lower_Low': 0, 'Direction_Changed': 0, 'Bullish_Direction': 0, 'Bearish_Direction': 0}
