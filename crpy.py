@@ -1,7 +1,7 @@
 import time, random, re
 import pandas as pd
 from javascript import require
-lCh=[]; lSt=[];
+lCh=[]; lSt=[]; sFile=''
 tv=require('@mathieuc/tradingview')
 tkn='k52ysq6gal51s6sn49cuztekseq06hyb'; sig='v3:nZQsJn1kRRGzrJ+V7U6bxxVIs/NNOjQkLqD/3XQCJas='
 # print(tv)
@@ -45,10 +45,9 @@ try:
 					if int(vv['New_Higher_High'])==1: arB.append({'c': cc, 's': 'zz_hh', 'd':'short'})
 					if int(vv['New_Lower_High']) ==1: arB.append({'c': cc, 's': 'zz_lh', 'd':'short'})
 				for i, r in pd.DataFrame(arB).drop_duplicates().iterrows():
-					print(f"- {r['c']}, {r['s']}, {r['d']}, {datetime.now()}")
-	# with open('hello.txt', 'w') as f:
-	# 	f.write('Hello World from Python script!')
-	# print("File written successfully")
+					ss=f"- {r['c']}, {r['s']}, {r['d']}, {datetime.now()}"; sFile+=f'\n{ss}'
+					print(ss)
+	with open('crp.txt', 'w') as f: f.write(sFile)
 except Exception as e:
 	print(e)
 	
