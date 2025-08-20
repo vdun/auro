@@ -12,6 +12,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          cache: 'pip'
       - name: rrrrrrrr
         run: |
           pip install javascript pandas
