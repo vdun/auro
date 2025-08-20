@@ -21,7 +21,7 @@ jobs:
         run: |
           pip install javascript pandas
           # -----------------------
-          python crpy.py > crp.txt
+          python crpy.py
           # -----------------------
           git config --global user.name 'v'
           git config --global user.email 'v@users.noreply.github.com'
