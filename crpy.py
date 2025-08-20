@@ -32,6 +32,7 @@ for i1 in range(0, len(lSt) - 1, 2):
 			cc = ch.infos['name'] if str(type(ch.infos['base_currency'])) == "<class 'NoneType'>" else ch.infos['base_currency']
 			cc=re.sub('USDT?$', '',cc)
 			vv = {**v1, **v2}
+			print(vv)
 			if (i in [1]) and ( re.findall(r'(?i)ZigZag\+\+', z.description+' '+z2.description) ):
 				if int(vv['New_Higher_Low']) ==1: arB.append({'c': cc, 's': 'zz_hl', 'd':'long'})
 				if int(vv['New_Lower_Low'])  ==1: arB.append({'c': cc, 's': 'zz_ll', 'd':'long'})
