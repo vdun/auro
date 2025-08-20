@@ -1,4 +1,4 @@
-import time
+import time, random
 from javascript import require
 lCh=[]; lSt=[];
 tv=require('@mathieuc/tradingview')
