@@ -1,0 +1,27 @@
+[1m Installing '@mathieuc/tradingview' version 'latest'... This will only happen once. [0m
+
+added 38 packages, and audited 39 packages in 2s
+
+6 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[1m OK. [0m
+[JSE] 
+
+[JSE] 
+
+ChartSession { Study: [class ChartStudy] }
+['ZigZag++', 'Zig Zag']
+[JSE] The maximum number of studies per chart has been reached for current subscription nje1-charts-free-3-tvbs-wklns-1@nje1-charts-free-3-tvbs-wklns-1
+
+[JSE] The maximum number of studies per chart has been reached for current subscription nje1-charts-free-3-tvbs-wklns-1@nje1-charts-free-3-tvbs-wklns-1
+
+[JSE] Calculation failed. Remove the script and reapply it to the chart. nje1-charts-free-3-tvbs-wklns-1@nje1-charts-free-3-tvbs-wklns-1
+
+[JSE] Calculation failed. Remove the script and reapply it to the chart. nje1-charts-free-3-tvbs-wklns-1@nje1-charts-free-3-tvbs-wklns-1
+
+{}
+{}
+'New_Higher_Low'
