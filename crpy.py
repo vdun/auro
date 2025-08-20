@@ -1,4 +1,5 @@
 import time, random, re
+import pandas as pd
 from javascript import require
 lCh=[]; lSt=[];
 tv=require('@mathieuc/tradingview')
