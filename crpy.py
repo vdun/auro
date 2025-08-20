@@ -44,6 +44,6 @@ try:
 	# with open('hello.txt', 'w') as f:
 	# 	f.write('Hello World from Python script!')
 	# print("File written successfully")
-	except Exception as e:
-		print(e)
+except Exception as e:
+	print(e)
 	
