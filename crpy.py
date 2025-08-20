@@ -19,15 +19,20 @@ for i1 in range(0, len(lSt) - 1, 2):
 	ch = c.Session.Chart()
 	ch.setMarket('BINANCE:BTCUSDT', { 'timeframe': tf }); time.sleep(1)
 	z =tv.getIndicator(std, 'last'); z2=tv.getIndicator(std2, 'last'); time.sleep(1)
-print([z.description, z2.description])
-
-if (i in [1]) and ( re.findall(r'(?i)ZigZag\+\+', z.description+' '+z2.description) ):
-	if int(vv['New_Higher_Low']) ==1: arB.append({'c': cc, 's': 'zz_hl', 'd':'long'})
-	if int(vv['New_Lower_Low'])  ==1: arB.append({'c': cc, 's': 'zz_ll', 'd':'long'})
-	if int(vv['New_Higher_High'])==1: arB.append({'c': cc, 's': 'zz_hh', 'd':'short'})
-	if int(vv['New_Lower_High']) ==1: arB.append({'c': cc, 's': 'zz_lh', 'd':'short'})
-for i, r in pd.DataFrame(arB).drop_duplicates().iterrows():
-	print(f"- {r['c']}, {r['s']}, {r['d']}, {datetime.now()}")
+	print([z.description, z2.description])
+	if re.findall(r'(?i)ZigZag\+\+',  z.description):  z.setOption('in_10', False)	# !repaint
+	if re.findall(r'(?i)ZigZag\+\+', z2.description): z2.setOption('in_10', False)	# !repaint
+	s =ch.Study(z); s2=ch.Study(z2); time.sleep(1)
+	for cn in arCo:
+		ch.setMarket(cn, { 'timeframe': tf }); time.sleep(1)
+		for i in range(0, lim):
+			if (i in [1]) and ( re.findall(r'(?i)ZigZag\+\+', z.description+' '+z2.description) ):
+				if int(vv['New_Higher_Low']) ==1: arB.append({'c': cc, 's': 'zz_hl', 'd':'long'})
+				if int(vv['New_Lower_Low'])  ==1: arB.append({'c': cc, 's': 'zz_ll', 'd':'long'})
+				if int(vv['New_Higher_High'])==1: arB.append({'c': cc, 's': 'zz_hh', 'd':'short'})
+				if int(vv['New_Lower_High']) ==1: arB.append({'c': cc, 's': 'zz_lh', 'd':'short'})
+			for i, r in pd.DataFrame(arB).drop_duplicates().iterrows():
+				print(f"- {r['c']}, {r['s']}, {r['d']}, {datetime.now()}")
 # with open('hello.txt', 'w') as f:
 # 	f.write('Hello World from Python script!')
 # print("File written successfully")
