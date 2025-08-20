@@ -22,7 +22,8 @@ try:
 		ch = c.Session.Chart()
 		ch.setMarket('BINANCE:BTCUSDT', { 'timeframe': tf }); time.sleep(1)
 		z =tv.getIndicator(std, 'last'); # z2=tv.getIndicator(std2, 'last'); time.sleep(1)
-		print([z.description, z2.description])
+		# print([z.description, z2.description])
+		print([z.description])
 		if re.findall(r'(?i)ZigZag\+\+',  z.description):  z.setOption('in_10', False)	# !repaint
 		#if re.findall(r'(?i)ZigZag\+\+', z2.description): z2.setOption('in_10', False)	# !repaint
 		s =ch.Study(z); #s2=ch.Study(z2); time.sleep(1)
