@@ -1,0 +1,26 @@
+name: Hello World File Writer
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  write-file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Write Hello World to a file
+        run: |
+          python -c "with open('hello.txt', 'w') as file: file.write('Hello World')"
+      - name: Commit and push the file
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Add hello.txt file" || echo "No changes to commit"
+          git push origin main
