@@ -7,7 +7,7 @@ tkn='k52ysq6gal51s6sn49cuztekseq06hyb'; sig='v3:nZQsJn1kRRGzrJ+V7U6bxxVIs/NNOjQk
 # print(tv)
 c=tv.Client({'token': tkn, 'signature': sig}); time.sleep(1)
 ch = c.Session.Chart()
-print(ch)
+# print(ch)
 lCh.append(ch)
 ch.setMarket('BINANCE:BTCUSDT', { 'timeframe': '15' }); time.sleep(1)
 arCo=['BINANCE:BTCUSDT', 'BINANCE:ETHUSDT']
