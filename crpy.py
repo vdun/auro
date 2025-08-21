@@ -2,7 +2,7 @@ import time, random, re, os
 import pandas as pd
 from datetime import datetime, timedelta, timezone
 from javascript import require
-lCh=[]; lSt=[]; sFile=''
+lCh=[]; lSt=[]; sFile='c, s, d, dt\n'
 tv=require('@mathieuc/tradingview')
 tkn=os.environ.get('TV_TKN'); sig=os.environ.get('TV_SG')
 print(tkn)
@@ -48,7 +48,7 @@ try:
 					if int(vv['New_Lower_High']) ==1: arB.append({'c': cc, 's': 'zz_lh', 'd':'short'})
 				for i, r in pd.DataFrame(arB).drop_duplicates().iterrows():
 					ss=f"- {r['c']}, {r['s']}, {r['d']}, {datetime.now()}"; sFile+=f'\n{ss}'; print(ss)
-	with open('crp.txt', 'w') as f: f.write(sFile)
+	with open('crp.csv', 'w') as f: f.write(sFile)
 except Exception as e:
 	print(e)
 	
