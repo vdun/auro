@@ -18,6 +18,9 @@ jobs:
         with:
           cache: 'pip'
       - name: rrrrrrrr
+        env:
+            TV_TKN: ${{ secrets.TV_TKN }}
+            TV_SG: ${{ secrets.TV_SG }}
         run: |
           pip install javascript pandas
           # -----------------------
