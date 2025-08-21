@@ -24,7 +24,7 @@ jobs:
           cache: 'pip'
       - name: rrrrrrrr
         run: |
-          env
+          # env
           pip install javascript pandas
           # -----------------------
           python crpy.py
