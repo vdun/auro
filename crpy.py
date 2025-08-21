@@ -1,10 +1,11 @@
-import time, random, re
+import time, random, re, os
 import pandas as pd
 from datetime import datetime, timedelta, timezone
 from javascript import require
 lCh=[]; lSt=[]; sFile=''
 tv=require('@mathieuc/tradingview')
-tkn='k52ysq6gal51s6sn49cuztekseq06hyb'; sig='v3:nZQsJn1kRRGzrJ+V7U6bxxVIs/NNOjQkLqD/3XQCJas='
+tkn=os.environ.get('TV_TKN'); sig=os.environ.get('TV_SG')
+
 # print(tv)
 c=tv.Client({'token': tkn, 'signature': sig}); time.sleep(1)
 ch = c.Session.Chart()
