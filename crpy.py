@@ -5,7 +5,7 @@ from javascript import require
 lCh=[]; lSt=[]; sFile=''
 tv=require('@mathieuc/tradingview')
 tkn=os.environ.get('TV_TKN'); sig=os.environ.get('TV_SG')
-
+print(tkn)
 # print(tv)
 c=tv.Client({'token': tkn, 'signature': sig}); time.sleep(1)
 ch = c.Session.Chart()
