@@ -12,8 +12,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-        TV_TKN: ${{ secrets.TV_TKN }}
-        TV_SG: ${{ secrets.TV_SG }}
+        # TV_TKN: ${{ secrets.TV_TKN }}
+        # TV_SG: ${{ secrets.TV_SG }}
+        TV_TKN: ${{ vars.TV_TKN }}
+        TV_SG: ${{ vars.TV_SG }}
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
